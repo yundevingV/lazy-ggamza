@@ -1,13 +1,11 @@
 import React from 'react';
 import './tailwind.css'; // Tailwind CSS 파일 임포트
+import Album from './pages/Album';
 
 function App() {
   return (
-    <div >
-      <button 
-        className={`w-15 h-5 bg-yellow-300`}>
-          태일윈드
-        </button>
+    <div className="w-[400px] grid grid-cols-2 gap-4 mx-auto p-4"> {/* 2열 그리드 설정 */}
+      <Album />
     </div>
   );
 }
