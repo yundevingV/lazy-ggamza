@@ -11,10 +11,12 @@ import image7 from "../assets/7.png"
 import image8 from "../assets/8.png"
 import image9 from "../assets/9.jpeg"
 import image10 from "../assets/9.png"
+import image11 from "../assets/big1.jpeg"
+import image12 from "../assets/big2.jpg"
 
 const imageList = [
                   image0, image1, image2, image3, image4, image5, image6,
-                  image7, image8, image9, image10
+                  image7, image8, image9, image10, image11, image12
                   ]
 
 export default function Album(){
